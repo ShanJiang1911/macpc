@@ -2,7 +2,7 @@ body{
         background-color:bisque;
 }
 
-header, footer{
+header{
     background-color:rgb(240, 125, 84);
     border: black 1px solid;
 }
@@ -12,6 +12,8 @@ h1{
     text-align: center;
     border: black 2px solid; 
     margin: 30px 30px;   
+    font-style:inherit;
+    font-size:xx-large;
 }
 
 nav{
@@ -22,14 +24,30 @@ li{
     border:black 2px solid;
     display: inline;
     background-color: cornsilk;
-    padding: 5px 20px 5px 20px;
+    padding: 0px 20px 5px 20px;
     margin: 0px 100px;
 }
 
 article{
-    text-align: center;
+    text-align:center;
 }
 
 p{
     color:#c2581b ;
+    text-align: left;
+}
+
+article{
+    margin-top: 50px;
+}
+
+footer{
+    background-color:rgb(240, 125, 84);
+    border: black 1px solid;
+    padding-left: 30px;
+    margin-top: 60px;
+}
+
+#ptag_color{
+    color: ivory;
 }
