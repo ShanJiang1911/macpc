@@ -1,0 +1,35 @@
+body{
+        background-color:bisque;
+}
+
+header, footer{
+    background-color:rgb(240, 125, 84);
+    border: black 1px solid;
+}
+
+h1{
+    color: rgb(26, 3, 3);
+    text-align: center;
+    border: black 2px solid; 
+    margin: 30px 30px;   
+}
+
+nav{
+    text-align: center;
+}
+
+li{
+    border:black 2px solid;
+    display: inline;
+    background-color: cornsilk;
+    padding: 5px 20px 5px 20px;
+    margin: 0px 100px;
+}
+
+article{
+    text-align: center;
+}
+
+p{
+    color:#c2581b ;
+}
