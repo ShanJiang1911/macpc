@@ -36,14 +36,19 @@ function customerGreeting(user1){
 }
 
 
-
 function buyMac(){
-    let user2 = confirm('Do you want get a Mac, I have a coupon for you');
+    let user2 = prompt('Do you want get the newest version of iMac? Yes or No');
 
-    if (user2 == true){
-        document.write('<h4>That is smart!</h4>');
-    } else {
-        document.write('<h4>I am using Windows too!</h4>');
+    while (user2.toLowerCase() !='yes' && user2.toLowerCase() != 'no'){
+        user2 = prompt('Yes or No only. Please try again. Do you want to get a new iMac');
     }
   }
 
+
+function addPictures(){
+    numberOfPictures = prompt('How many new iMacs do you want to see');
+    url = "https://i2-prod.mirror.co.uk/incoming/article23949911.ece/ALTERNATES/s615b/0_Apple-launch.jpg";
+    for(let i = 0; i < numberOfPictures; i ++){
+        document.write('<img src="' + url + '">');
+    }
+}
